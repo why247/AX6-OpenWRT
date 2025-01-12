@@ -54,5 +54,5 @@ rm -rf feeds/luci/applications/luci-app-argon-config
 #修改主机名
 #sed -i "s/hostname='ImmortalWrt'/hostname='Redmi-AX6'/g" package/base-files/files/bin/config_generate
 
-uci set wireless.radio0.disabled=0
-uci set wireless.radio1.disabled=0
+set wireless.radio0.disabled=0
+set wireless.radio1.disabled=0
